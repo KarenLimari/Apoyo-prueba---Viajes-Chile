@@ -20,11 +20,19 @@ body {
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 400;
-  width: 100%;
+}
+
+#quienes-somos p {
+  padding: 40px;
+  text-align: justify;
+}
+
+#quienes-somos i {
+  font-size: 2rem;
 }
 
 #destacados {
-  background: black;
+  padding: 40px;
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 400;
@@ -35,11 +43,23 @@ body {
   width: 100%;
 }
 #contacto {
-  background: black;
   color: white;
+  padding: 40px;
 }
-
+#contacto .form-group input,
+#contacto .form-group textarea {
+  width: 100%;
+}
 #Footer {
   background: mediumaquamarine;
   color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 400;
+}
+
+#Footer .fa-brands {
+  margin: 10;
+}
+#Footer .col-7 {
+  text-align: end;
 }
