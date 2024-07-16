@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar {
+  top: 0;
+  width: 100%;
+  background: black;
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+#quienes-somos {
+  background: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 400;
+  width: 100%;
+}
+
+#destacados {
+  background: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 400;
+}
+.card-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 400;
+  width: 100%;
+}
+#contacto {
+  background: black;
+  color: white;
+}
+
+#Footer {
+  background: mediumaquamarine;
+  color: white;
+}
