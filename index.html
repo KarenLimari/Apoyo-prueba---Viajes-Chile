@@ -42,7 +42,8 @@
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"></button>
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -64,36 +65,55 @@
       </div>
     </nav>
     <!--Carrusel-->
-    <section>
-    <div class="contenido">
-      <div class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Apoyo prueba/assets/img/carousel1.jpg" class="d-block w-100" alt="imagen1">
-    </div>
-    <div class="carousel-item">
-      <img src="Apoyo prueba/assets/img/carousel2.jpg" class="d-block w-100" alt="imagen2">
-    </div>
-    <div class="carousel-item">
-      <img src="Apoyo prueba/assets/img/carousel3.jpg" class="d-block w-100" alt="imagen3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">anterior</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">siguiente</span>
-  </button>
-</div>
-    </div>
-    </div>
-</section>
+    <section id="inicio">
+      <div id="carouselExample" class="carousel slide" data-bs.ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Apoyo prueba/assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="imagen1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Apoyo prueba/assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="imagen2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Apoyo prueba/assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="imagen3"
+            />
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
 
-<!--Quienes somos-->
+    <!--Quienes somos-->
 
-<section id="quienes-somos">
+    <section id="quienes-somos">
       <h2 class="text-center pb-5 pt-5">¿Quiénes Somos?</h2>
       <div class="row">
         <div class="col-12 col-md-4 text-center">
@@ -115,7 +135,7 @@
           </p>
         </div>
         <div class="col-12 col-md-4 text-center">
-        <i class="fa-solid fa-location-dot my-1"></i>
+          <i class="fa-solid fa-location-dot my-1"></i>
           <p class="my-3 text-right">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -127,52 +147,83 @@
     </section>
 
     <!--Destacados-->
-<section id="destacados">
-  <h2 class="text-center pb-5 pt-5">Destacados</h2>
+    <section id="destacados">
+      <h2 class="text-center pb-5 pt-5">Destacados</h2>
 
-  <!--Cards-->
-<div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="Apoyo prueba/assets/img/card1.jpg" class="card-img-top" alt="card1">
-      <div class="card-body">
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <!--Cards-->
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="Apoyo prueba/assets/img/card1.jpg"
+              class="card-img-top"
+              alt="card1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="Apoyo prueba/assets/img/card2.jpg"
+              class="card-img-top"
+              alt="card2"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="Apoyo prueba/assets/img/card3.jpg"
+              class="card-img-top"
+              alt="card3"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="Apoyo prueba/assets/img/card4.jpg"
+              class="card-img-top"
+              alt="card4"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="Apoyo prueba/assets/img/card2.jpg" class="card-img-top" alt="card2">
-      <div class="card-body">
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="Apoyo prueba/assets/img/card3.jpg" class="card-img-top" alt="card3">
-      <div class="card-body">
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="Apoyo prueba/assets/img/card4.jpg" class="card-img-top" alt="card4">
-      <div class="card-body">
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+    </section>
 
-<!--Contacto-->
-<section id="contacto">
-  <h2 class="text-center pb-4 pt-4">Contacto</h2>
+    <!--Contacto-->
+    <section id="contacto">
+      <h2 class="text-center pb-4 pt-4">Contacto</h2>
 
-<!--Formulario-->
-<form>
+      <!--Formulario-->
+      <form>
         <div class="form-group mb-4">
           <label class="mb-2">Nombre</label>
           <input class="" placeholder="Nombre" />
@@ -199,13 +250,10 @@
           <button class="btn btn-dark text-dark">Enviar</button>
         </div>
       </form>
-</section>
+    </section>
 
-<!--Footer-->
-    <section
-      id="Footer"
-      class="container-fluid"
-    >
+    <!--Footer-->
+    <section id="Footer" class="container-fluid">
       <div class="row px-5 py-5">
         <div class="col-5">
           <h2 class="display-8 text-start">Viajes Chile</h2>
@@ -224,8 +272,25 @@
         </div>
       </div>
     </section>
-
-    
+    <script>
+      $(document).ready(function () {
+        $("a.nav-link").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      });
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
