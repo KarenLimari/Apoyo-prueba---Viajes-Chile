@@ -14,7 +14,9 @@ body {
   width: 100%;
   z-index: 1000;
 }
-
+.navbarlogo {
+  height: 40px;
+}
 #quienes-somos {
   padding: 20px;
   color: white;
@@ -59,7 +61,4 @@ body {
 
 #Footer .fa-brands {
   margin: 10;
-}
-#Footer .col-7 {
-  text-align: end;
 }
