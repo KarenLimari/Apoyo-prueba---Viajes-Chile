@@ -17,7 +17,7 @@ diferentes secciones de la página, haciendo un smooth scroll.
 
 ## Captura de pantallas del proyecto
 
-![Home]()
+![Página Viajes Chile](Apoyo prueba/assets/img/Pantallazo-pagina.jpg)
 
 ## Prerrequisitos o Depedencias
 
