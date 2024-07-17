@@ -21,7 +21,7 @@ La página debe contener las siguientes secciones:
 
 ## Captura de pantalla del proyecto
 
-![Home](../Apoyo%20prueba%20-%20Viajes%20Chile/Apoyo%20prueba/assets/img/Pantallazo-pagina.jpg)
+![Landing](../Apoyo%20prueba%20-%20Viajes%20Chile/Apoyo%20prueba/assets/img/Pantallazo-pagina.jpg)
 
 ## Prerrequisitos o Depedencias
 
